@@ -1,0 +1,34 @@
+.f-container{
+    width: 100%;
+    height: 180px;
+    background-color: #1d1d3e;
+    padding: 10px;
+}
+.f-list{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-line{
+    color: #1db8de;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+}
+.icon img{
+    width: 30px;
+}
+
+.f-content{
+    display: flex;
+    justify-content: center;
+}
+.f-content p{
+    color: white;
+}
