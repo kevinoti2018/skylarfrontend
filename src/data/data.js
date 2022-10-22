@@ -44,3 +44,26 @@ import {GiTakeMyMoney } from "react-icons/gi";
 
     }
 ]
+
+
+
+export const ProjecData =[
+    {
+        key: 1,
+        image:'./images/project/prod1.jpg' ,
+        name: "Garbage Collection System" ,
+        content:'lorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piy',
+    },
+    {
+        key: 2,
+        image:'./images/project/prod1.jpg' ,
+        name: "Garbage Collection System" ,
+        content:'lorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piy',
+    },
+    {
+        key: 3,
+        image:'./images/project/prod1.jpg' ,
+        name: "Garbage Collection System" ,
+        content:'lorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piylorem ipsum dolor ispus son miu oo piy',
+    }
+]

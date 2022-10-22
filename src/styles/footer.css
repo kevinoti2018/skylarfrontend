@@ -17,12 +17,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .icon{
     margin-right: 10px;
+    cursor: pointer;
+    
 }
 .icon img{
     width: 30px;
+    transition: all .2s ease-in-out;
+}
+.icon img:hover{
+    transform: scale(1.16);
 }
 
 .f-content{

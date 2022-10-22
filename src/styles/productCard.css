@@ -50,25 +50,33 @@
 .product{
     height: 300px;
     /* ../../public/images/project/frosted.jpg */
-    
     background: linear-gradient(137.96deg, rgba(29, 29, 62, 0.5) -3.54%, rgba(255, 255, 255, 0.5) 103.84%, rgba(255, 255, 255, 0.5) 103.85%, rgba(29, 29, 62, 0.5) 103.85%);
     border-radius: 20px;
     margin-top: 30px;
     display:flex;
     justify-content: center;
     align-items :center;
-
+    transition: .3s ease-in-out;
+}
+.product:hover{
+   transform: scale(1.03);
 }
 ul .icon{
     font-size: .1 px;
-    color: #1db8de;
+    color:  #1d1d3e;
     font-size: 38px;
     text-align: center;
+    font-weight: bolder;
 }
-
+ul .icon:hover{
+    color: #1db8de;
+}
  li .name , li .content{
     color: white;
     font-weight: bold;
+}
+li .name:hover ,li .content:hover{
+    color: #1d1d3e;
 }
 li .name{ 
     font-size: 20px;
