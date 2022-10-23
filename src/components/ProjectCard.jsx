@@ -3,7 +3,7 @@ import { ProjecData } from '../data/data'
 import '../styles/projectCard.css'
 const ProjectCard = () => {
   return (
-    <div className='container'>
+    <div className='project-container'>
       {ProjecData.map((item)=>(
         <ul className='card-container'>
           <li> 
