@@ -5,8 +5,9 @@
     width: 100%;
     overflow: hidden;
 }
-.top{
-    margin-left: 250px;
+.product-top{
+    margin-left: 90px;
+    margin-bottom: 60px;
    }
    .keep{
        color: #1db8de;

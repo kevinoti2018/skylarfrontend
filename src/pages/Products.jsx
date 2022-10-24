@@ -9,7 +9,7 @@ const Products = () => {
     <div className='container'>
 
        <Navigation/>
-       <div className='top'>
+       <div className='product-top'>
        <p className='keep'> Explore some of our projects</p>
        <h1 className='title'>Products</h1>
      </div>

@@ -4,7 +4,7 @@ import '../styles/home.css'
 
 const Services = () => {
   return (
-    <div >
+    <div className='service-container'>
         <div className='service-top'>
              <h2 className='service-title'> Services</h2>
              <p> our services for clients</p>

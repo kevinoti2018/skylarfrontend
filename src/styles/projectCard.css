@@ -4,8 +4,8 @@
     margin: 0 auto;
     overflow: hidden;
 }
-top{
-    margin-left: 250px;
+.project-top{
+    margin-left: 90px;
    }
    .keep{
        color: #1db8de;

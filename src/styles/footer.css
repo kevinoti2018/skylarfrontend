@@ -1,8 +1,12 @@
 .f-container{
+    /* width: 1280px; */
     width: 100%;
+    padding: 5px;
+    /* border-radius: 20px; */
+    margin: 0 auto;
     height: 180px;
     background-color: #1d1d3e;
-    padding: 10px;
+    
 }
 .f-list{
     text-decoration: none;
