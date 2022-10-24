@@ -109,3 +109,36 @@ export const ServiceData = [
     },
    
 ]
+
+export const flagData = [
+    {
+        key: 1, 
+        image: './images/home/kenya.jpg',
+        alt: 'kenya',
+    } ,
+    {
+        key: 2, 
+        image: './images/home/tanzania.jpg',
+        alt:'tanzania'
+    } ,
+    {
+        key: 3, 
+        image: './images/home/drc.jpg',
+        alt:'drc'
+    } ,
+    {
+        key: 4, 
+        image: './images/home/uganda.jpg',
+        alt: 'uganda'
+    } ,
+   
+]
+
+export const testimonialData=[
+    {
+        key: 1,
+        name: 'hillary omondi',
+        country:'tanzania',
+        content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor consequat laoreet nulla lobortis fermentum. Fermentum, non odio ligula nulla'
+    }
+]
