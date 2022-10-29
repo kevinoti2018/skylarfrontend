@@ -191,6 +191,7 @@ box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
     padding: 30px;
     border-radius: 20px;
     margin: 0 auto;
+    margin-bottom: 10px;
     background: linear-gradient(224.32deg, rgba(29, 29, 62, 0.85) -0.32%, rgba(29, 184, 222, 0.49) 103.5%);
 }
 
@@ -218,4 +219,109 @@ box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
     bottom: -8px;
     height: 4px;
     background-color:#1db8de;
+}
+
+
+    /* testimonials */
+.testimonials-container{
+    width: 1280px;
+    margin-top: 40px;
+
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(224.32deg, rgba(29, 29, 62, 0.85) -0.32%, rgba(29, 184, 222, 0.49) 103.5%);
+}
+.testimonial-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+}
+ .testimonial-header h2{
+    font-size: 33px;
+    color: white;
+    position: relative;
+}
+.testimonial-header h2::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    left: -26px;
+    height: 3px;
+    background-color: #1db8de;
+}
+ .testimonial-header p{
+    margin-top: -17px;
+    color: #1db8de;
+    font-weight: bold;
+}
+
+.testimonial-body{
+ display: flex;
+
+}
+.testimonial-card{
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1d1d3e;
+    transition: .2s ease;
+    
+}
+
+.testimonial-top{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 40px 1fr; */
+}
+.testimonial-left img{
+    border-radius: 50%;
+} 
+.testimonial-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.t-name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+}
+.t-name::before{
+    content: "";
+    top: 50%;
+    left: -25px;
+    width: 20px;
+    height: 3px;
+    background-color: #1db8de;
+    position: absolute;
+}
+.t-country{
+    color: #fff;
+    font-weight: bold;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+.t-content{
+    color: #fff;
+    font-weight: 600;
+}
+
+i{
+    color: #1db8de;
+}
+
+.testimonial-card:hover {
+    background-color: #2a2a8a;
+    transform: scale(1.03);
+    
 }

@@ -138,7 +138,22 @@ export const testimonialData=[
     {
         key: 1,
         name: 'hillary omondi',
+        image: './images/home/p1.jpg',
+        country:'kenya',
+        content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor consequat laoreet nulla lobortis fermentum. Fermentum, non odio ligula nulla'
+    },
+    {
+        key: 2,
+        name: 'aisha juma',
+        image: './images/home/p2.jpg',
         country:'tanzania',
         content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor consequat laoreet nulla lobortis fermentum. Fermentum, non odio ligula nulla'
-    }
+    },
+    {
+        key: 3,
+        name: 'fally ipupa',
+        image: './images/home/p3.jpg',
+        country:'drc',
+        content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor consequat laoreet nulla lobortis fermentum. Fermentum, non odio ligula nulla'
+    },
 ]
